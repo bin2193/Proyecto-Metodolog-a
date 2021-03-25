@@ -1,0 +1,63 @@
+<div class="jumbotron jumbotron-fluid, animated fadeIn">     
+  <div class="container">       
+      <h1 class="display-4">El Buen Sabor Delivery</h1>       
+  <p class="lead">Arma tu pedido y te lo llevamos a tu casa</p>     
+</div>   
+</div>
+
+<div class="container mt-3" >
+    <ngb-carousel #carousel>
+      <ng-template ngbSlide >
+        <div class="img-block">
+          <img src="assets/img/cerveza.jpg" alt="Img 1" class="mh-100" style="width: 100%;  height: 70vh  " >
+        </div>
+        <div class="carousel-caption" >
+          <h3>BIRRAS</h3>
+          <p>Frescas</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="img-block">
+          <img src="assets/img/empanadas.jpg" alt="Img 2" class="mh-100" style="width: 100%;  height: 70vh " >
+        </div>
+        <div class="carousel-caption" >
+          <h3>EMPANADAS</h3>
+          <p>Recién salidas</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="img-block">
+          <img src="assets/img/hamburguesa.jpg" alt="Img 3" class="mh-100" style="width: 100%;  height: 70vh " >
+        </div>
+        <div class="carousel-caption" >
+          <h3>BURGUERS</h3>
+          <p>Las más grandes</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="img-block">
+        <img src="assets/img/lomo-completo.jpg" alt="Img 4" class="mh-100" style="width: 100%; height: 70vh " >
+      </div>
+      <div class="carousel-caption" >
+        <h3>LOMOS</h3>
+        <p>Con carne de primera</p>
+      </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="img-block">
+              <img src="assets/img/pizza-especial.jpg" alt="Img 5" class="mh-100" style="width: 100%; height: 70vh" >
+            </div>
+            <div class="carousel-caption" >
+              <h3>PIZZAS</h3>
+              <p>Las mejores</p>
+            </div>
+              </ng-template>
+
+    </ngb-carousel>
+<!--   
+    <div class="text-center">
+      <button (click)="prevSlide()">Prev</button>
+      <button (click)="nextSlide()">Next</button>
+      <button (click)="stopSlider()">Stop</button>
+    </div>--->
+  </div> 
